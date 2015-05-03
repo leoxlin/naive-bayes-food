@@ -11,7 +11,7 @@ training=[
 
 testing=[
 	('data/healthy_test.csv',0),
-	('data/unhealthy.csv', 1)
+	('data/unhealthy_test.csv', 1)
 ]
 
 def read_file(doc):
