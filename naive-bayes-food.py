@@ -34,7 +34,6 @@ if __name__ == '__main__':
 		res=read_file(doc)
 		train_data+=res[0]
 		train_target+=res[1]
-	print train_target
 
 	test_data=[]
 	test_target=[]
