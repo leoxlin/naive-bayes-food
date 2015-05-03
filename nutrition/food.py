@@ -10,7 +10,7 @@ class Food:
 
 	# Append a nutritional value to the array of nutritions
 	# Nutrition is a tuple:
-	# (name of the nutrition[string], % daily value[double])
+	# (name of the nutrition[string], quantity[double])
 	def add_nutrition(self, nutrition):
 		self.nutrition.append(nutrition);
 
